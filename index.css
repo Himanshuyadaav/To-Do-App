@@ -1,0 +1,139 @@
+html {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 90%;
+  max-width: 40rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#mainBox {
+    width: 70%;
+  margin-inline: auto;
+  height: 70vh;
+
+  margin-top: 5rem;
+  /* background-color: white; */
+}
+
+
+
+form {
+    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+input {
+    width: 75%;
+  outline: none;
+  padding-block: 0.17rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+#add-btn {
+    width: 10%;
+  border: none;
+  color: #fff;
+  font-size: 21px;
+  outline: none;
+  background: #8e49e8;
+  cursor: pointer;
+  border-radius: 3px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+#task-lst {
+    list-style: none;
+}
+
+.list-box{
+    width: 90%;
+    margin-inline: auto;
+    padding-block: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.cta-container{
+    margin-inline: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+#clr-btn{
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.8rem;
+    background: #8E49E8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.task-item{
+    display: flex;
+    padding-inline: 1rem;
+    justify-content: space-between;
+    margin-block: 0.6rem;
+    align-items: center;
+    background-color: #ccc;
+}
+.task-item button{
+    background: #e74c3c;
+    text-align: center;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.info{
+  font-size: 1rem;
+  color:  white;
+}
+
+.name{
+  font-size: 1.2rem;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
